@@ -38,6 +38,27 @@ define("UsrYacht2_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 			},
 			{
 				"operation": "insert",
+				"name": "PushMeButton",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(PushMeButton_caption)#",
+					"color": "accent",
+					"disabled": false,
+					"size": "medium",
+					"iconPosition": "left-icon",
+					"visible": true,
+					"clicked": {
+						"request": "usr.PushButtonRequest"
+					},
+					"clickMode": "default",
+					"icon": "send-test-email-icon"
+				},
+				"parentName": "CardToggleContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "UsrName",
 				"values": {
 					"layoutConfig": {
@@ -384,7 +405,21 @@ define("UsrYacht2_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 				}
 			}
 		]/**SCHEMA_MODEL_CONFIG_DIFF*/,
-		handlers: /**SCHEMA_HANDLERS*/[]/**SCHEMA_HANDLERS*/,
+		handlers: /**SCHEMA_HANDLERS*/[
+			{
+				request: "usr.PushButtonRequest",
+				/* Implementation of the custom query handler. */
+				handler: async (request, next) => {
+					console.log("Button works...");
+					Terrasoft.showInformation("My button was pressed.");
+					var price = await request.$context.PDS_UsrPricePerDay_3kpzjf8;
+					console.log("Price = " + price);
+					request.$context.PDS_UsrComment_8b8p5r2 = "comment from JS code!";
+					/* Call the next handler if it exists and return its result. */
+					return next?.handle(request);
+				}
+			}
+		]/**SCHEMA_HANDLERS*/,
 		converters: /**SCHEMA_CONVERTERS*/{}/**SCHEMA_CONVERTERS*/,
 		validators: /**SCHEMA_VALIDATORS*/{}/**SCHEMA_VALIDATORS*/
 	};
