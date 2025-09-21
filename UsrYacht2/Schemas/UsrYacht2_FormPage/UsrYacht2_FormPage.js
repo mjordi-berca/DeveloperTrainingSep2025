@@ -3,6 +3,18 @@ define("UsrYacht2_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 		viewConfigDiff: /**SCHEMA_VIEW_CONFIG_DIFF*/[
 			{
 				"operation": "merge",
+				"name": "CardToggleTabPanel",
+				"values": {
+					"styleType": "default",
+					"bodyBackgroundColor": "primary-contrast-500",
+					"selectedTabTitleColor": "auto",
+					"tabTitleColor": "auto",
+					"underlineSelectedTabColor": "auto",
+					"headerBackgroundColor": "auto"
+				}
+			},
+			{
+				"operation": "merge",
 				"name": "Feed",
 				"values": {
 					"dataSourceName": "PDS",
@@ -73,9 +85,9 @@ define("UsrYacht2_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 						"rowSpan": 1
 					},
 					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.PDS_UsrColumn3_11jkwll",
+					"label": "$Resources.Strings.PDS_UsrLength_rgyxyx5",
 					"labelPosition": "auto",
-					"control": "$PDS_UsrColumn3_11jkwll"
+					"control": "$PDS_UsrLength_rgyxyx5"
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
@@ -246,6 +258,30 @@ define("UsrYacht2_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
 				"index": 7
+			},
+			{
+				"operation": "insert",
+				"name": "Number",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"colSpan": 1,
+						"row": 5,
+						"rowSpan": 1
+					},
+					"type": "crt.Input",
+					"label": "$Resources.Strings.PDS_UsrNumber_2r6f1q1",
+					"labelPosition": "auto",
+					"control": "$PDS_UsrNumber_2r6f1q1",
+					"multiline": false,
+					"visible": true,
+					"readonly": true,
+					"placeholder": "",
+					"tooltip": ""
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 8
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
@@ -263,11 +299,6 @@ define("UsrYacht2_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					"PDS_UsrPricePerDay_3kpzjf8": {
 						"modelConfig": {
 							"path": "PDS.UsrPricePerDay"
-						}
-					},
-					"PDS_UsrColumn3_11jkwll": {
-						"modelConfig": {
-							"path": "PDS.UsrColumn3"
 						}
 					},
 					"PDS_UsrCrewNumber_um44ip3": {
@@ -303,6 +334,16 @@ define("UsrYacht2_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					"PDS_UsrManager_lbd84vb": {
 						"modelConfig": {
 							"path": "PDS.UsrManager"
+						}
+					},
+					"PDS_UsrLength_rgyxyx5": {
+						"modelConfig": {
+							"path": "PDS.UsrLength"
+						}
+					},
+					"PDS_UsrNumber_2r6f1q1": {
+						"modelConfig": {
+							"path": "PDS.UsrNumber"
 						}
 					}
 				}
