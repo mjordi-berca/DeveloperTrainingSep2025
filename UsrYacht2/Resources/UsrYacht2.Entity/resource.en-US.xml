@@ -4,7 +4,10 @@
 		<Items>
 			<Item Name="Caption" Value="Yacht2" />
 			<Item Name="Columns.UsrCaptain.Caption" Value="Captain" />
+			<Item Name="Columns.UsrColumn13.Caption" Value="City" />
+			<Item Name="Columns.UsrColumn14.Caption" Value="Ticket price, USD" />
 			<Item Name="Columns.UsrComment.Caption" Value="Comment" />
+			<Item Name="Columns.UsrCountry.Caption" Value="Country" />
 			<Item Name="Columns.UsrCrewNumber.Caption" Value="Crew number" />
 			<Item Name="Columns.UsrDriveType.Caption" Value="Drive type" />
 			<Item Name="Columns.UsrLength.Caption" Value="Length, ft" />
