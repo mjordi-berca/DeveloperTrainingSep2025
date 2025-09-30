@@ -5,5 +5,6 @@
 		<Compile Include="$(PkgPath)/UsrYacht2/Schemas/UsrYacht2/UsrYacht2.cs" Condition="Exists('$(PkgPath)/UsrYacht2/Schemas/UsrYacht2/UsrYacht2.cs')" />
 		<Compile Include="$(PkgPath)/UsrYacht2/Schemas/UsrYacht2DriveType/UsrYacht2DriveType.cs" Condition="Exists('$(PkgPath)/UsrYacht2/Schemas/UsrYacht2DriveType/UsrYacht2DriveType.cs')" />
 		<Compile Include="$(PkgPath)/UsrYacht2/Schemas/UsrYacht2Status/UsrYacht2Status.cs" Condition="Exists('$(PkgPath)/UsrYacht2/Schemas/UsrYacht2Status/UsrYacht2Status.cs')" />
+		<Compile Include="$(PkgPath)/UsrYacht2/Schemas/UsrYachtRental/UsrYachtRental.cs" Condition="Exists('$(PkgPath)/UsrYacht2/Schemas/UsrYachtRental/UsrYachtRental.cs')" />
 	</ItemGroup>
 </Project>

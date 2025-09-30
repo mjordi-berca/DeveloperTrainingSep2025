@@ -3,9 +3,9 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="AddonConfig.Rules.4151ef0e-fd5d-951d-97cd-84d02f46b8d3.Caption" Value="Apply filter: City" />
+			<Item Name="AddonConfig.Rules.666b6081-dcdd-1ed3-4239-b43c1da4275e.Caption" Value="ChildRule-4151ef0e-fd5d-951d-97cd-84d02f46b8d3-ClearValue" />
 			<Item Name="AddonConfig.Rules.9962ab79-23d9-84ab-c05d-9c99a0bcf420.Caption" Value="Apply static filter: Manager" />
-			<Item Name="AddonConfig.Rules.e7f16ebc-6600-1354-cac2-746f31ef3a2b.Caption" Value="ChildRule-4151ef0e-fd5d-951d-97cd-84d02f46b8d3-ClearValue" />
-			<Item Name="AddonConfig.Rules.f90f35d0-b465-8da5-5008-1c370d8a8d5c.Caption" Value="ChildRule-4151ef0e-fd5d-951d-97cd-84d02f46b8d3-PopulateValue" />
+			<Item Name="AddonConfig.Rules.f133cd80-72b4-240b-9ef8-8c48b81943ee.Caption" Value="ChildRule-4151ef0e-fd5d-951d-97cd-84d02f46b8d3-PopulateValue" />
 			<Item Name="Caption" Value="Yacht2 (Business rules)" />
 		</Items>
 	</Group>

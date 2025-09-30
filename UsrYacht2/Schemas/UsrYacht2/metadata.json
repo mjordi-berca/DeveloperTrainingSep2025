@@ -159,7 +159,7 @@
 }
 + MetaData.Schema.D2 {
   "UId": "dbc0d1e1-38a3-e30c-cfd9-97d0f0e23eb8",
-  "A2": "UsrColumn13",
+  "A2": "UsrCity",
   "A3": "25001103-d567-4f81-b8b9-b822d2e3032c",
   "A4": "25001103-d567-4f81-b8b9-b822d2e3032c",
   "A5": "f6ebf25f-107d-4a80-990d-8a06030a10f2",
@@ -167,8 +167,8 @@
   "S4": "5ca90b6a-93e7-4448-befe-ab5166ec2cfe",
   "E6": true,
   "E20": true,
-  "E17": "UsrColumn13Id",
-  "E18": "UsrColumn13Name"
+  "E17": "UsrCityId",
+  "E18": "UsrCityName"
 }
 + MetaData.Schema.D2 {
   "UId": "6ab264fb-c4bc-cc59-e774-1bd463a6393f",
@@ -185,7 +185,7 @@
 }
 + MetaData.Schema.D2 {
   "UId": "18b8c1b2-c991-5047-1add-387d7a10ced4",
-  "A2": "UsrColumn14",
+  "A2": "UsrTicketPrice",
   "A3": "25001103-d567-4f81-b8b9-b822d2e3032c",
   "A4": "25001103-d567-4f81-b8b9-b822d2e3032c",
   "A5": "f6ebf25f-107d-4a80-990d-8a06030a10f2",
