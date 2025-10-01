@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Average ticket price page" />
+			<Item Name="Parameters.0421329b-c83c-e964-c507-a3229e5f4187.Caption" Value="Average price, USD" />
+			<Item Name="Parameters.4dc6f7a5-1532-5e9e-939d-a6e993c44a18.Caption" Value="SQL text" />
+		</Items>
+	</Group>
+</Resources>
